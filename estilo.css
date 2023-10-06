@@ -1,0 +1,152 @@
+header 
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  height: 74px;
+  background-color: #130B16;
+}
+
+header a 
+{
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+
+  color: #FFF;
+}
+
+header button 
+{
+  margin-right: 20px;
+  background-color: transparent;
+  border: none;
+
+  font-size: 32px;
+  color: #FFF;
+}
+
+* 
+{
+  padding: 0;
+  margin: 0;
+
+  font-family: Inter;
+}
+
+#principal 
+{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.d-flex 
+{
+  margin-top: 20px;
+}
+
+.d-flex input 
+{
+  width: 80%; 
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid black
+}
+
+input:focus {
+  outline: none; /* Para remover a borda padrão de foco no estilo do navegador */
+}
+
+
+#area_banner1 
+{
+  margin-top: 60px;
+}
+
+#area_banner1 img
+{
+  width: 100%;
+}
+
+.imagens 
+{
+  display: flex;
+}
+
+.imagens img 
+{
+  width: 100%;
+  margin: 0 9px;
+}
+
+.imagens section {
+  background-color: #000;
+}
+
+.icones-sociais img{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.icones-sociais{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+footer 
+{
+  display: flex;
+  padding-top: 50px;
+  align-items: center;
+  gap: 20px;
+  padding-left: 12px;
+
+  font-size: 16px;
+  color: white;
+  background-color: black;
+}
+
+h5 
+{
+  text-align: center;
+  color: #000;
+  margin-top: 32px;
+  margin-bottom: 80px;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+#deseja 
+{
+  color: #000;
+  margin-left: 25px;
+  font-size: 32px;
+}
+
+#busca 
+{
+  text-align: center;
+  height: 568px;
+}
+h4{
+  font-size: 15px;
+  margin: 4px;
+}
+
+@media (min-width: 1280px) {
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+
+  .icones-sociais {
+    display: flex;
+    flex-direction: row;
+  }
+}
