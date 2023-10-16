@@ -18,6 +18,10 @@ header a
   color: #FFF;
 }
 
+header nav {
+  display: none;
+}
+
 header button 
 {
   margin-right: 20px;
@@ -78,6 +82,7 @@ input:focus {
   width: 30px;
   height: 30px;
 }
+
 .icones-sociais{
   display: flex;
   gap: 8px;
@@ -91,6 +96,7 @@ footer
 {
   display: flex;
   padding-top: 50px;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
   padding-left: 12px;
@@ -122,7 +128,19 @@ h5
   height: 568px;
 }
 
+#area_banner1 {
+  margin-top: ;
+}
+
+#area_banner1 img{
+  width: 100%;
+}
+
 @media (min-width: 1280px) {
+  header button {
+    display: none;
+  }
+
   footer {
     display: flex;
     justify-content: space-between;
