@@ -1,30 +1,18 @@
-header 
-{
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+
   height: 74px;
   background-color: #130B16;
-}
-
-header a 
-{
-  margin-left: 10px;
-  font-size: 16px;
-  font-weight: 400;
-  text-decoration: none;
-
-  color: #FFF;
 }
 
 header nav {
   display: none;
 }
 
-header button 
-{
-  margin-right: 20px;
+header button {
+  margin-left: 24px;
   background-color: transparent;
   border: none;
 
@@ -32,81 +20,73 @@ header button
   color: #FFF;
 }
 
-* 
-{
+* {
   padding: 0;
   margin: 0;
 
   font-family: Inter;
 }
 
-#principal 
-{
+#principal {
   text-align: center;
   margin-top: 10px;
 }
 
-.d-flex 
-{
+.d-flex {
   margin-top: 20px;
 }
 
-.d-flex input 
-{
-  width: 80%; 
+.d-flex input {
+  width: 80%;
   height: 40px;
   border: none;
   border-bottom: 1px solid black
 }
 
 input:focus {
-  outline: none; /* Para remover a borda padrão de foco no estilo do navegador */
+  outline: none;
 }
 
-.imagens 
-{
+.imagens {
   display: flex;
 }
 
-.imagens img 
-{
-  width: 100%;
+.imagens section {
   margin: 0 9px;
 }
 
-.imagens section {
-  background-color: #000;
+.imagens section img {
+  width: 100%;
 }
 
-.icones-sociais img{
+.icones-sociais img {
   width: 30px;
   height: 30px;
 }
 
-.icones-sociais{
+.icones-sociais {
   display: flex;
   gap: 8px;
 }
 
-h3{
+h3 {
   font-size: 8px;
 }
 
-footer 
-{
+footer {
   display: flex;
-  padding-top: 50px;
   justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  padding-left: 12px;
+  align-items: end;
+  padding: 30px 12px;
 
-  font-size: 16px;
   color: rgb(0, 0, 0);
 }
 
-h5 
-{
+footer h3 {
+  font-size: 14px;
+}
+
+h5 {
   text-align: center;
   color: #000;
   margin-top: 32px;
@@ -115,25 +95,61 @@ h5
   font-weight: 400;
 }
 
-#deseja 
-{
+#deseja {
   color: #000;
-  margin-left: 25px;
+
   font-size: 32px;
 }
 
-#busca 
-{
+#busca {
   text-align: center;
-  height: 568px;
+}
+
+#servicos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#servicos h2 {
+  font-size: 28px;
+  font-weight: 400;
+
+  color: #000;
+}
+
+.opcoes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 60px 40px;
+}
+
+.opcoes h4 {
+  font-size: 40px;
+  font-weight: 400;
+
+  color: #000;
+}
+
+.opcoes strong {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+
+  color: #000;
 }
 
 #area_banner1 {
-  margin-top: ;
+  margin-top: 68px;
 }
 
-#area_banner1 img{
+#area_banner1 img {
   width: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 @media (min-width: 1280px) {
@@ -141,17 +157,55 @@ h5
     display: none;
   }
 
+  header nav {
+    display: block;
+  }
+
+  header nav a {
+    margin-left: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+
+    color: #FFF;
+  }
+
   footer {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 20px;
   }
 
-  h3 {
-    font-size: 15px;
+  footer h3 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
   }
+
   .icones-sociais {
     display: flex;
     flex-direction: row;
+  }
+
+  .icones-sociais img {
+    width: 50px;
+    height: 50px;
+  }
+
+  #servicos h2 {
+    font-size: 48px;
+  }
+
+  .opcoes {
+    margin: 100px;
+  }
+
+  .opcoes h4 {
+    font-size: 60px;
+  }
+
+  .opcoes strong {
+    font-size: 24px;
   }
 }
