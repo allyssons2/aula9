@@ -59,17 +59,6 @@ input:focus {
   outline: none; /* Para remover a borda padrão de foco no estilo do navegador */
 }
 
-
-#area_banner1 
-{
-  margin-top: 60px;
-}
-
-#area_banner1 img
-{
-  width: 100%;
-}
-
 .imagens 
 {
   display: flex;
